@@ -7,7 +7,16 @@ metadata:
   annotations:
     github.com/project-slug: shambhand/my-backstage-app
     backstage.io/techdocs-ref: dir:.
+  labels:
+    example.com/custom: foundation-services
+  tags:
+    - java
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
 spec:
-  type: website
-  owner: john@example.com
-  lifecycle: experimental
+  type: API
+  owner: my-platform-team
+  lifecycle: production
+  system: platform-services
